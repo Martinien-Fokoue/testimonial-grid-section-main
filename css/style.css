@@ -33,9 +33,9 @@
       height: 32px;
     }
 
-  .user_infos .infos {
+  /* .user_infos .infos {
     border: 1px solid red;
-  }
+  } */
     .infos .user_name {
       font-weight: 600;
     }
@@ -62,7 +62,7 @@
   box-shadow: 5px 7px 5px rgba(0, 0, 0, .2);
 }
 
-/* 
+
 body {
   background-color: var(--Light-grayish-blue);
   display: flex;
@@ -142,20 +142,20 @@ body {
     }
       .second_item .item_description{
         color: var(--Very-dark-grayish-blue);
-      } */
+      }
 
 
 @media screen and (max-width : 700px) {
 
   body {
-    border: 2px solid yellow;
+    height: auto;
   }
   
 
   .container {
-    border: 2px solid blue;
     width: 90%;
-    margin: 50px auto;
+    height: 100%;
+    margin: 50px auto 115px;
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
