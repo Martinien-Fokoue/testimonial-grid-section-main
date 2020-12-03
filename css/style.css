@@ -33,8 +33,9 @@
       height: 32px;
     }
 
-  /* .user_infos .infos {
-  } */
+  .user_infos .infos {
+    border: 1px solid red;
+  }
     .infos .user_name {
       font-weight: 600;
     }
@@ -148,14 +149,13 @@ body {
 
   body {
     border: 2px solid yellow;
-    /* height: auto; */
-    /* margin: 50px 0; */
   }
+  
 
   .container {
     border: 2px solid blue;
     width: 90%;
-    margin: 0 auto;
+    margin: 50px auto;
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
@@ -179,4 +179,7 @@ body {
       width: 80px;
     }
 
+    .user_infos {
+      grid-template-columns: 1fr 80%;
+    }
 }
