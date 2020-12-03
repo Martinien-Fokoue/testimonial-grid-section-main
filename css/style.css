@@ -155,7 +155,7 @@ body {
   .container {
     width: 90%;
     height: 100%;
-    margin: 50px auto 115px;
+    margin: 60px auto 115px;
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
